@@ -137,7 +137,7 @@ function Minter() {
         info.web3.utils.toHex(Number(mintInfo.cost) * mintInfo.amount)
       ),
       data: info.contract.methods
-        .mint(info.account, mintInfo.amount)
+        .mint(mintInfo.amount)
         .encodeABI(),
     };
     try {
@@ -167,7 +167,7 @@ function Minter() {
   };
 
   const updateAmount = (newAmount) => {
-    if (newAmount <= 5 && newAmount >= 1) {
+    if (newAmount <= 10 && newAmount >= 1) {
       setMintInfo((prevState) => ({
         ...prevState,
         amount: newAmount,
@@ -295,7 +295,7 @@ function Minter() {
           }}
           className="_90"
           target="_blank"
-          href="https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192"
+          href="https://basescan.org/address/0xf731a824332ea2d004fa38f875da025a09d09d41"
         >
           View Contract
         </a>

@@ -1,11 +1,11 @@
 {
-  "name": "Nerdy Coder Clones",
-  "symbol": "NCC",
-  "total_supply": 1000,
-  "chain_symbol": "MATIC",
-  "chain": "Polygon",
-  "chain_id": 137,
-  "address": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "name": "Devilish Darling",
+  "symbol": "DD",
+  "total_supply": 5000,
+  "chain_symbol": "ETH",
+  "chain": "Base",
+  "chain_id": 8453,
+  "address": "0xF731A824332ea2D004fa38f875Da025a09d09D41",
   "abi": [
     {
       "inputs": [
@@ -185,7 +185,6 @@
     },
     {
       "inputs": [
-        { "internalType": "address", "name": "_to", "type": "address" },
         { "internalType": "uint256", "name": "_mintAmount", "type": "uint256" }
       ],
       "name": "mint",
