@@ -1,11 +1,11 @@
 {
-  "name": "Devilish Darling",
+  "name": "ZK MOON BEAR",
   "symbol": "DD",
-  "total_supply": 5000,
+  "total_supply": 1000,
   "chain_symbol": "ETH",
-  "chain": "Base",
-  "chain_id": 8453,
-  "address": "0xF731A824332ea2D004fa38f875Da025a09d09D41",
+  "chain": "zkera",
+  "chain_id": 324,
+  "address": "0x4d71E72ab2abe6CfC05a1f57a619a793a6d7092F",
   "abi": [
     {
       "inputs": [

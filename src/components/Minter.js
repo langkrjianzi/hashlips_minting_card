@@ -194,9 +194,7 @@ function Minter() {
   return (
     <div className="page">
       <div className="card">
-        <div className="card_header colorGradient">
-          <img className="card_header_image ns" alt={"banner"} src={Hero} />
-        </div>
+        
         {mintInfo.supply < contract.total_supply ? (
           <div className="card_body">
             <div
@@ -295,7 +293,7 @@ function Minter() {
           }}
           className="_90"
           target="_blank"
-          href="https://basescan.org/address/0xf731a824332ea2d004fa38f875da025a09d09d41"
+          href="https://explorer.zksync.io/address/0x4d71E72ab2abe6CfC05a1f57a619a793a6d7092F#contract"
         >
           View Contract
         </a>
